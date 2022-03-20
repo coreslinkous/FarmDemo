@@ -264,5 +264,22 @@ Assets {
       VirtualFolderPath: "UI"
       PlatformAssetType: 5
     }
+    Folders {
+      VirtualFolderPath: "Vehicles"
+      PlatformAssetType: 5
+    }
+    Folders {
+      VirtualFolderPath: "Vehicles"
+      VirtualFolderPath: "Dependencies"
+      PlatformAssetType: 5
+    }
+    Folders {
+      VirtualFolderPath: "Vehicle"
+      PlatformAssetType: 3
+    }
+    Folders {
+      VirtualFolderPath: "Vehicles"
+      PlatformAssetType: 13
+    }
   }
 }
