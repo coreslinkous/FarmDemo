@@ -1,37 +1,10 @@
 Assets {
-  Id: 17002816344941281577
-  Name: "Grass and Soil"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_grass_003_uv"
-  }
-}
-Assets {
   Id: 16910278292812118833
   Name: "Sun Light"
   PlatformAssetType: 6
   PrimaryAsset {
     AssetType: "BlueprintAssetRef"
     AssetId: "CORESKY_SunLight"
-  }
-}
-Assets {
-  Id: 15037436331956346967
-  Name: "Hill 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_hill_001"
-  }
-}
-Assets {
-  Id: 12628183978468003363
-  Name: "Hill 05"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_hill_005"
   }
 }
 Assets {
@@ -44,30 +17,21 @@ Assets {
   }
 }
 Assets {
+  Id: 11871866877148555519
+  Name: "Wedge - Concave 1:2"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_wedge_curved_concave_002_ref"
+  }
+}
+Assets {
   Id: 11515840070784317904
   Name: "Skylight"
   PlatformAssetType: 6
   PrimaryAsset {
     AssetType: "BlueprintAssetRef"
     AssetId: "CORESKY_Skylight"
-  }
-}
-Assets {
-  Id: 9802724784644488365
-  Name: "Asphalt 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_gen_asphault_001"
-  }
-}
-Assets {
-  Id: 8269399104741565575
-  Name: "Building 9 Slice Composite 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_building_skyscraper_001"
   }
 }
 Assets {
@@ -80,39 +44,30 @@ Assets {
   }
 }
 Assets {
-  Id: 5143258843188860965
-  Name: "Hill 02"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_hill_002"
-  }
-}
-Assets {
-  Id: 4634995537581966643
-  Name: "Basic Apple"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prim_org_apple_001_ref"
-  }
-}
-Assets {
-  Id: 3723622831994450726
-  Name: "Plane 4m - One Sided"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_plane_4m_001"
-  }
-}
-Assets {
-  Id: 3092632114114976736
-  Name: "Building 9 Slice Composite 03"
+  Id: 7114299056641290394
+  Name: "Generic Water"
   PlatformAssetType: 2
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
-    AssetId: "mi_building_skyscraper_003"
+    AssetId: "fxma_parameter_driven_water_manual"
+  }
+}
+Assets {
+  Id: 3881517548298106830
+  Name: "Tree Redwood Big"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_tree_redwood_001"
+  }
+}
+Assets {
+  Id: 2073036264773225110
+  Name: "Pipe - Quarter Wedge Thick - Large"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_quarter_pipe_wedge_thick_lg_001_ref"
   }
 }
 Assets {
@@ -125,29 +80,20 @@ Assets {
   }
 }
 Assets {
-  Id: 1736234243552127978
-  Name: "Building 9 Slice Composite 04"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_building_skyscraper_004"
-  }
-}
-Assets {
-  Id: 1463642294207599431
-  Name: "Hill 04"
+  Id: 1439622389747982454
+  Name: "Pipe - Quarter Thick - Large"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_hill_004"
+    AssetId: "sm_quarter-pipe_lg_thick_001_ref"
   }
 }
 Assets {
-  Id: 1219161394462005420
-  Name: "Building 9 Slice Composite 02"
-  PlatformAssetType: 2
+  Id: 585066804503778287
+  Name: "Wedge"
+  PlatformAssetType: 1
   PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_building_skyscraper_002"
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_wedge_001"
   }
 }

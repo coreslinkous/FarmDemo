@@ -281,5 +281,13 @@ Assets {
       VirtualFolderPath: "Vehicles"
       PlatformAssetType: 13
     }
+    Folders {
+      VirtualFolderPath: "Art - Apocalypse"
+      PlatformAssetType: 5
+    }
+    Folders {
+      VirtualFolderPath: "Apocalypse"
+      PlatformAssetType: 31
+    }
   }
 }

@@ -1,4 +1,5 @@
 "Id[String]","Name[String]","ValidGatheringToolTypes[String]","InteractionError[String]","GatherEffects[Asset Reference]","SpawnTemplateOnLoad[Bool]","RespawnSeconds[Float]","RespawnEffects[Asset Reference]","DropIds[String]","DropOnGather[Bool]","DropEveryGather[Bool]","DropBehaviorId[String]","GatherableStatesId[String]"
+"Debris Metal 1","Metal","","","0BADBADBADBADBAD","False","0.0","0BADBADBADBADBAD","","False","False","",""
 "Debris Tree","Tree","axe","Use a Sturdy Axe to chop down trees","6AA001DF7A08EBF0","True","120.0","0BADBADBADBADBAD","Wood Small, Maple Seed Chance","True","True","Community","Debris Tree"
 "Debris Triple Tree","Tree","axe","Use a Sturdy Axe to chop down trees","6AA001DF7A08EBF0","True","120.0","0BADBADBADBADBAD","Wood Small, Maple Seed Chance","True","True","Community","Debris Triple Tree"
 "Debris Dead Tree","Dead Tree","axe","Use a Sturdy Axe to chop down trees","6AA001DF7A08EBF0","True","120.0","0BADBADBADBADBAD","Wood Small, Maple Seed Chance","True","True","Community","Debris Dead Tree"

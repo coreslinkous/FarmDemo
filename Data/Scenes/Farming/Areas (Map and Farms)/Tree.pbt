@@ -21,7 +21,7 @@ Objects {
   ChildIds: 11376334187332385179
   ChildIds: 1656115177500774418
   ChildIds: 17558715794157309809
-  ChildIds: 3086392946106163089
+  ChildIds: 14471514968760393107
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -42,9 +42,13 @@ Objects {
   }
 }
 Objects {
-  Id: 3086392946106163089
+  Id: 14471514968760393107
   Name: "Area Forest - Gatherables Replicator"
   Transform {
+    Location {
+    }
+    Rotation {
+    }
     Scale {
       X: 1
       Y: 1
@@ -52,35 +56,537 @@ Objects {
     }
   }
   ParentId: 13136556304418046500
+  ChildIds: 12952901137224848269
+  ChildIds: 6528256662985102984
+  ChildIds: 9631802190721890838
+  ChildIds: 6585599025489906048
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:UserFunctions"
+      AssetReference {
+        Id: 18146943269460124834
+      }
+    }
+    Overrides {
+      Name: "cs:Parent"
+      ObjectReference {
+        SelfId: 6585599025489906048
+      }
+    }
+    Overrides {
+      Name: "cs:UserFunctions:isrep"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:UserFunctions:ml"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:Parent:isrep"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:Parent:ml"
+      Bool: false
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 14471514968760393107
+    SubobjectId: 18246608364343857051
+    InstanceId: 3086392946106163089
+    TemplateId: 5667499672186961776
+    WasRoot: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 6585599025489906048
+  Name: "StaticContext (Open Me)"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 14471514968760393107
+  ChildIds: 11444055413179580579
+  ChildIds: 9489632384072468036
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  NetworkContext {
+    Type: RuntimeStatic
+  }
+  InstanceHistory {
+    SelfId: 6585599025489906048
+    SubobjectId: 7965004046491261832
+    InstanceId: 3086392946106163089
+    TemplateId: 5667499672186961776
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 9489632384072468036
+  Name: "Forest Gatherable Group (Random)"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6585599025489906048
+  ChildIds: 12519174772310965067
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:GatherableGroupId"
+      String: "Forest Random"
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 9489632384072468036
+    SubobjectId: 13140428326667277388
+    InstanceId: 3086392946106163089
+    TemplateId: 5667499672186961776
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 12519174772310965067
+  Name: "The Custom Property on this group is for GatherableGroups Table"
+  Transform {
+    Location {
+      Y: -171.454498
+      Z: 163.889954
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9489632384072468036
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Color"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "bp:Type"
+      Enum {
+        Value: "mc:evolumetype:0"
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 6442861049751997091
+    }
+    TeamSettings {
+    }
+  }
+  InstanceHistory {
+    SelfId: 12519174772310965067
+    SubobjectId: 10975506150362278211
+    InstanceId: 3086392946106163089
+    TemplateId: 5667499672186961776
+  }
+}
+Objects {
+  Id: 11444055413179580579
+  Name: "Forest Gatherable Group (Trees)"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6585599025489906048
+  ChildIds: 13907788708377427652
+  ChildIds: 6640901894334855454
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:GatherableGroupId"
+      String: "Forest Trees"
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 11444055413179580579
+    SubobjectId: 12338926551413396139
+    InstanceId: 3086392946106163089
+    TemplateId: 5667499672186961776
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 6640901894334855454
+  Name: "The Custom Property on this group is for GatherableGroups Table"
+  Transform {
+    Location {
+      Y: 115.404282
+      Z: 163.889954
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11444055413179580579
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Color"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "bp:Type"
+      Enum {
+        Value: "mc:evolumetype:0"
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 6442861049751997091
+    }
+    TeamSettings {
+    }
+  }
+  InstanceHistory {
+    SelfId: 6640901894334855454
+    SubobjectId: 7621469939779054358
+    InstanceId: 3086392946106163089
+    TemplateId: 5667499672186961776
+  }
+}
+Objects {
+  Id: 13907788708377427652
+  Name: "Area - Forest Gatherable Group - Trees"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11444055413179580579
   TemplateInstance {
     ParameterOverrideMap {
-      key: 18246608364343857051
+      key: 15364769205764966074
       value {
         Overrides {
           Name: "Name"
-          String: "Area Forest - Gatherables Replicator"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-          }
+          String: "Area - Forest Gatherable Group - Trees"
         }
         Overrides {
           Name: "Rotation"
           Rotator {
           }
         }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
       }
     }
     TemplateAsset {
-      Id: 5667499672186961776
+      Id: 2961754143323481573
     }
+  }
+}
+Objects {
+  Id: 9631802190721890838
+  Name: "ClientContext"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 14471514968760393107
+  ChildIds: 8403810889625028420
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  NetworkContext {
+  }
+  InstanceHistory {
+    SelfId: 9631802190721890838
+    SubobjectId: 12702075776193505310
+    InstanceId: 3086392946106163089
+    TemplateId: 5667499672186961776
+  }
+  IsAdvanced: true
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 8403810889625028420
+  Name: "CoreHierarchyReplicatorClient"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9631802190721890838
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:ComponentRoot"
+      ObjectReference {
+        SelfId: 14471514968760393107
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 5462950747896091420
+    }
+  }
+  InstanceHistory {
+    SelfId: 8403810889625028420
+    SubobjectId: 4705569930706015564
+    InstanceId: 3086392946106163089
+    TemplateId: 5667499672186961776
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 6528256662985102984
+  Name: "CoreHierarchyReplicatorServer"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 14471514968760393107
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:ComponentRoot"
+      ObjectReference {
+        SelfId: 14471514968760393107
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 13852825441613215519
+    }
+  }
+  InstanceHistory {
+    SelfId: 6528256662985102984
+    SubobjectId: 8031282947042100352
+    InstanceId: 3086392946106163089
+    TemplateId: 5667499672186961776
+  }
+  IsAdvanced: true
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 12952901137224848269
+  Name: "Gatherables README"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 14471514968760393107
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Script {
+    ScriptAsset {
+      Id: 9232111493283590371
+    }
+  }
+  InstanceHistory {
+    SelfId: 12952901137224848269
+    SubobjectId: 9668152415594955141
+    InstanceId: 3086392946106163089
+    TemplateId: 5667499672186961776
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
