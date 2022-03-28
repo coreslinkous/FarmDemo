@@ -1,7 +1,7 @@
 Name: "Global Database"
-RootId: 14596898980593036885
+RootId: 5359794887070440501
 Objects {
-  Id: 6224106756292391821
+  Id: 158983946680263451
   Name: "Upgrades"
   Transform {
     Location {
@@ -14,7 +14,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14596898980593036885
+  ParentId: 5359794887070440501
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -36,7 +36,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5327205581751552846
+  Id: 2589477559325597008
   Name: "Shared"
   Transform {
     Location {
@@ -49,9 +49,9 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14596898980593036885
-  ChildIds: 1254479613770421072
-  ChildIds: 8098624998886313798
+  ParentId: 5359794887070440501
+  ChildIds: 12252961685461962743
+  ChildIds: 9414612707003192942
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -72,7 +72,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8098624998886313798
+  Id: 9414612707003192942
   Name: "Screens"
   Transform {
     Location {
@@ -85,12 +85,12 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5327205581751552846
+  ParentId: 2589477559325597008
   UnregisteredParameters {
     Overrides {
       Name: "cs:DataTable"
       AssetReference {
-        Id: 13291900817557182981
+        Id: 10397060715607804636
       }
     }
     Overrides {
@@ -124,7 +124,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1254479613770421072
+  Id: 12252961685461962743
   Name: "DataMigrations"
   Transform {
     Location {
@@ -137,12 +137,12 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5327205581751552846
+  ParentId: 2589477559325597008
   UnregisteredParameters {
     Overrides {
       Name: "cs:DataTable"
       AssetReference {
-        Id: 14091062804884434982
+        Id: 18156274888880891902
       }
     }
     Overrides {
@@ -176,7 +176,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9229313266873730748
+  Id: 14000970990739054937
   Name: "Stores & Currencies"
   Transform {
     Location {
@@ -189,7 +189,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14596898980593036885
+  ParentId: 5359794887070440501
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -211,7 +211,7 @@ Objects {
   }
 }
 Objects {
-  Id: 189772979812132827
+  Id: 6695204562476474429
   Name: "Producers & Buffs"
   Transform {
     Location {
@@ -224,7 +224,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14596898980593036885
+  ParentId: 5359794887070440501
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -246,7 +246,7 @@ Objects {
   }
 }
 Objects {
-  Id: 700859419761000212
+  Id: 16117779012921362276
   Name: "Placeables"
   Transform {
     Location {
@@ -259,7 +259,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14596898980593036885
+  ParentId: 5359794887070440501
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -281,7 +281,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16685094354895898618
+  Id: 15759037550025929223
   Name: "Inventories, Items, Drops"
   Transform {
     Location {
@@ -294,7 +294,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14596898980593036885
+  ParentId: 5359794887070440501
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -316,7 +316,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12131084966826875764
+  Id: 14995418737607755279
   Name: "Gatherables"
   Transform {
     Location {
@@ -329,7 +329,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14596898980593036885
+  ParentId: 5359794887070440501
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -351,7 +351,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8605766572070428680
+  Id: 263687194526741132
   Name: "Crafting"
   Transform {
     Location {
@@ -364,7 +364,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14596898980593036885
+  ParentId: 5359794887070440501
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -386,7 +386,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3138570866278574698
+  Id: 5005988140878297788
   Name: "ClientContext"
   Transform {
     Location {
@@ -399,8 +399,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14596898980593036885
-  ChildIds: 8399898051818993977
+  ParentId: 5359794887070440501
+  ChildIds: 1536551025231661847
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
   }
@@ -421,7 +421,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8399898051818993977
+  Id: 1536551025231661847
   Name: "DatabaseLoader"
   Transform {
     Location {
@@ -434,12 +434,12 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 3138570866278574698
+  ParentId: 5005988140878297788
   UnregisteredParameters {
     Overrides {
       Name: "cs:Database"
       ObjectReference {
-        SelfId: 14596898980593036885
+        SelfId: 5359794887070440501
       }
     }
   }
@@ -465,7 +465,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16357458853757500663
+  Id: 7807701080770278495
   Name: "DatabaseLoader"
   Transform {
     Location {
@@ -478,12 +478,12 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14596898980593036885
+  ParentId: 5359794887070440501
   UnregisteredParameters {
     Overrides {
       Name: "cs:Database"
       ObjectReference {
-        SelfId: 14596898980593036885
+        SelfId: 5359794887070440501
       }
     }
   }
@@ -510,7 +510,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11060273368572395761
+  Id: 11029750564704374559
   Name: "Data Migration README"
   Transform {
     Location {
@@ -523,7 +523,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14596898980593036885
+  ParentId: 5359794887070440501
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -546,7 +546,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10709758047627339502
+  Id: 12864046417959306852
   Name: "Database README"
   Transform {
     Location {
@@ -559,7 +559,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14596898980593036885
+  ParentId: 5359794887070440501
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }

@@ -1,7 +1,7 @@
 Name: "Stores _ Currencies"
-RootId: 9229313266873730748
+RootId: 14000970990739054937
 Objects {
-  Id: 8367413422749929877
+  Id: 18128244417973745904
   Name: "Stores"
   Transform {
     Location {
@@ -14,12 +14,12 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9229313266873730748
+  ParentId: 14000970990739054937
   UnregisteredParameters {
     Overrides {
       Name: "cs:DataTable"
       AssetReference {
-        Id: 6287060028143310558
+        Id: 10007943287497358872
       }
     }
     Overrides {
@@ -53,7 +53,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13140113390470076557
+  Id: 14889701543019591802
   Name: "Sellables"
   Transform {
     Location {
@@ -66,12 +66,12 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9229313266873730748
+  ParentId: 14000970990739054937
   UnregisteredParameters {
     Overrides {
       Name: "cs:DataTable"
       AssetReference {
-        Id: 2454437752823321194
+        Id: 8883127803931305010
       }
     }
     Overrides {
@@ -105,7 +105,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16962457290730534992
+  Id: 16542702124705823518
   Name: "Purchaseables"
   Transform {
     Location {
@@ -118,12 +118,12 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9229313266873730748
+  ParentId: 14000970990739054937
   UnregisteredParameters {
     Overrides {
       Name: "cs:DataTable"
       AssetReference {
-        Id: 8386139970524215953
+        Id: 9925526227502352495
       }
     }
     Overrides {
@@ -157,7 +157,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9812432426289259561
+  Id: 14472055121529178146
   Name: "Currencies"
   Transform {
     Location {
@@ -170,12 +170,12 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9229313266873730748
+  ParentId: 14000970990739054937
   UnregisteredParameters {
     Overrides {
       Name: "cs:DataTable"
       AssetReference {
-        Id: 11557290406056189819
+        Id: 2861838691059339416
       }
     }
     Overrides {

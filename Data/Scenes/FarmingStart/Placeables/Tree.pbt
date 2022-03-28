@@ -1,7 +1,7 @@
 Name: "Placeables"
-RootId: 700859419761000212
+RootId: 16117779012921362276
 Objects {
-  Id: 11597320038168796396
+  Id: 6878153633593171779
   Name: "PlaceableLimits"
   Transform {
     Location {
@@ -14,12 +14,12 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 700859419761000212
+  ParentId: 16117779012921362276
   UnregisteredParameters {
     Overrides {
       Name: "cs:DataTable"
       AssetReference {
-        Id: 10111518323364804404
+        Id: 13474799306482416094
       }
     }
     Overrides {
@@ -53,7 +53,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8690234088134570582
+  Id: 4252680583050270126
   Name: "PlaceableBuffs"
   Transform {
     Location {
@@ -66,12 +66,12 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 700859419761000212
+  ParentId: 16117779012921362276
   UnregisteredParameters {
     Overrides {
       Name: "cs:DataTable"
       AssetReference {
-        Id: 8648269314671437298
+        Id: 10094977480358898731
       }
     }
     Overrides {
@@ -105,7 +105,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11817695823736972566
+  Id: 475943693741591082
   Name: "Placeables"
   Transform {
     Location {
@@ -118,12 +118,12 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 700859419761000212
+  ParentId: 16117779012921362276
   UnregisteredParameters {
     Overrides {
       Name: "cs:DataTable"
       AssetReference {
-        Id: 6214920479046176249
+        Id: 17782706115499514974
       }
     }
     Overrides {
@@ -157,7 +157,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17457671250440563259
+  Id: 8319367406485029742
   Name: "PerPlaceableLimits"
   Transform {
     Location {
@@ -170,12 +170,12 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 700859419761000212
+  ParentId: 16117779012921362276
   UnregisteredParameters {
     Overrides {
       Name: "cs:DataTable"
       AssetReference {
-        Id: 6525941286939650074
+        Id: 6929434489993777491
       }
     }
     Overrides {

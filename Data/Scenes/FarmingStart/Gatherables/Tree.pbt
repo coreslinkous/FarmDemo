@@ -1,7 +1,7 @@
 Name: "Gatherables"
-RootId: 12131084966826875764
+RootId: 14995418737607755279
 Objects {
-  Id: 6247498366621352262
+  Id: 15026285041144562753
   Name: "GatherableStates"
   Transform {
     Location {
@@ -14,12 +14,12 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12131084966826875764
+  ParentId: 14995418737607755279
   UnregisteredParameters {
     Overrides {
       Name: "cs:DataTable"
       AssetReference {
-        Id: 17396697795671699745
+        Id: 4142598653896292203
       }
     }
     Overrides {
@@ -53,7 +53,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1729315509171812240
+  Id: 9587039611858472370
   Name: "GatherableGroups"
   Transform {
     Location {
@@ -66,12 +66,12 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12131084966826875764
+  ParentId: 14995418737607755279
   UnregisteredParameters {
     Overrides {
       Name: "cs:DataTable"
       AssetReference {
-        Id: 11249912795216405249
+        Id: 7272819062094725612
       }
     }
     Overrides {
@@ -105,7 +105,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12306561907108507232
+  Id: 405056762123240503
   Name: "Gatherables"
   Transform {
     Location {
@@ -118,12 +118,12 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12131084966826875764
+  ParentId: 14995418737607755279
   UnregisteredParameters {
     Overrides {
       Name: "cs:DataTable"
       AssetReference {
-        Id: 1940109391201087022
+        Id: 11752904804016789326
       }
     }
     Overrides {

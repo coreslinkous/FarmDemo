@@ -1,7 +1,7 @@
 Name: "Inventories, Items, Drops"
-RootId: 16685094354895898618
+RootId: 15759037550025929223
 Objects {
-  Id: 596839016971509587
+  Id: 5402755263636059833
   Name: "StartingItems"
   Transform {
     Location {
@@ -14,12 +14,12 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16685094354895898618
+  ParentId: 15759037550025929223
   UnregisteredParameters {
     Overrides {
       Name: "cs:DataTable"
       AssetReference {
-        Id: 7712380641584588500
+        Id: 275331674909609062
       }
     }
     Overrides {
@@ -53,7 +53,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3499213582802752547
+  Id: 6013311812422085443
   Name: "Items"
   Transform {
     Location {
@@ -66,12 +66,12 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16685094354895898618
+  ParentId: 15759037550025929223
   UnregisteredParameters {
     Overrides {
       Name: "cs:DataTable"
       AssetReference {
-        Id: 17621287517987718461
+        Id: 13526854109287382970
       }
     }
     Overrides {
@@ -105,7 +105,7 @@ Objects {
   }
 }
 Objects {
-  Id: 316415741605340660
+  Id: 17532204321286912987
   Name: "Inventories"
   Transform {
     Location {
@@ -118,12 +118,12 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16685094354895898618
+  ParentId: 15759037550025929223
   UnregisteredParameters {
     Overrides {
       Name: "cs:DataTable"
       AssetReference {
-        Id: 1888116874186200068
+        Id: 16885734412454551543
       }
     }
     Overrides {
@@ -157,7 +157,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8914277105558789586
+  Id: 10973259419086217404
   Name: "Equipment"
   Transform {
     Location {
@@ -170,12 +170,12 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16685094354895898618
+  ParentId: 15759037550025929223
   UnregisteredParameters {
     Overrides {
       Name: "cs:DataTable"
       AssetReference {
-        Id: 940217618146668168
+        Id: 15475022719921590578
       }
     }
     Overrides {
@@ -209,7 +209,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9489001131027871713
+  Id: 5457487750156216975
   Name: "DropModifiers"
   Transform {
     Location {
@@ -222,7 +222,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16685094354895898618
+  ParentId: 15759037550025929223
   UnregisteredParameters {
     Overrides {
       Name: "cs:DataTable"
@@ -261,7 +261,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14860557635888895953
+  Id: 12009513004274595171
   Name: "DropBehaviors"
   Transform {
     Location {
@@ -274,7 +274,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16685094354895898618
+  ParentId: 15759037550025929223
   UnregisteredParameters {
     Overrides {
       Name: "cs:DataTable"
@@ -313,7 +313,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11599863888727580267
+  Id: 17540696044497957696
   Name: "Drops"
   Transform {
     Location {
@@ -326,12 +326,12 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16685094354895898618
+  ParentId: 15759037550025929223
   UnregisteredParameters {
     Overrides {
       Name: "cs:DataTable"
       AssetReference {
-        Id: 13865241969993827142
+        Id: 3344940461001734676
       }
     }
     Overrides {

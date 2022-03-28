@@ -1,7 +1,7 @@
 Name: "Upgrades"
-RootId: 6224106756292391821
+RootId: 158983946680263451
 Objects {
-  Id: 10527053060991827280
+  Id: 17138398408367747755
   Name: "UpgradeTemplateSets"
   Transform {
     Location {
@@ -14,12 +14,12 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6224106756292391821
+  ParentId: 158983946680263451
   UnregisteredParameters {
     Overrides {
       Name: "cs:DataTable"
       AssetReference {
-        Id: 1816807786104580560
+        Id: 1332831680811840917
       }
     }
     Overrides {
@@ -53,7 +53,7 @@ Objects {
   }
 }
 Objects {
-  Id: 58907658526556458
+  Id: 18219178160638680296
   Name: "UpgradeCollections"
   Transform {
     Location {
@@ -66,12 +66,12 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6224106756292391821
+  ParentId: 158983946680263451
   UnregisteredParameters {
     Overrides {
       Name: "cs:DataTable"
       AssetReference {
-        Id: 4245472481167960002
+        Id: 5830691351543431364
       }
     }
     Overrides {
@@ -105,7 +105,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7143371410325963871
+  Id: 3132174925980709607
   Name: "Upgrades"
   Transform {
     Location {
@@ -118,12 +118,12 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6224106756292391821
+  ParentId: 158983946680263451
   UnregisteredParameters {
     Overrides {
       Name: "cs:DataTable"
       AssetReference {
-        Id: 18009741748710841714
+        Id: 6255350376796013122
       }
     }
     Overrides {

@@ -131,13 +131,13 @@ Assets {
       BasicBindingData {
         BasicInputs {
           KeyboardPrimary {
-            Value: "mc:ebindingkeyboard:rightcontrol"
+            Value: "mc:ebindingkeyboard:tilde"
           }
           KeyboardSecondary {
             Value: "mc:ebindingkeyboard:middleclick"
           }
           Controller {
-            Value: "mc:ebindinggamepad:dpaddown"
+            Value: "mc:ebindinggamepad:view"
           }
         }
       }
@@ -339,7 +339,7 @@ Assets {
       BasicBindingData {
         BasicInputs {
           KeyboardPrimary {
-            Value: "mc:ebindingkeyboard:leftalt"
+            Value: "mc:ebindingkeyboard:rightalt"
           }
           KeyboardSecondary {
             Value: "mc:ebindingkeyboard:none"

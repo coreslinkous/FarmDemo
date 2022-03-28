@@ -1,7 +1,7 @@
 Name: "Producers _ Buffs"
-RootId: 189772979812132827
+RootId: 6695204562476474429
 Objects {
-  Id: 4498844098875920835
+  Id: 5727191537881583951
   Name: "ProducerStates"
   Transform {
     Location {
@@ -14,12 +14,12 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 189772979812132827
+  ParentId: 6695204562476474429
   UnregisteredParameters {
     Overrides {
       Name: "cs:DataTable"
       AssetReference {
-        Id: 979119890341309074
+        Id: 6992776839880844842
       }
     }
     Overrides {
@@ -53,7 +53,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11684354619916647729
+  Id: 3520238844614401002
   Name: "ProducerBuffs"
   Transform {
     Location {
@@ -66,12 +66,12 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 189772979812132827
+  ParentId: 6695204562476474429
   UnregisteredParameters {
     Overrides {
       Name: "cs:DataTable"
       AssetReference {
-        Id: 8648269314671437298
+        Id: 11576480281421293261
       }
     }
     Overrides {
@@ -105,7 +105,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7112499303336994293
+  Id: 8127175198445170025
   Name: "Producers"
   Transform {
     Location {
@@ -118,12 +118,12 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 189772979812132827
+  ParentId: 6695204562476474429
   UnregisteredParameters {
     Overrides {
       Name: "cs:DataTable"
       AssetReference {
-        Id: 5396501833219896135
+        Id: 6127875510793690277
       }
     }
     Overrides {
@@ -157,7 +157,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6335852460302843661
+  Id: 13322137818491139701
   Name: "Buffs"
   Transform {
     Location {
@@ -170,12 +170,12 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 189772979812132827
+  ParentId: 6695204562476474429
   UnregisteredParameters {
     Overrides {
       Name: "cs:DataTable"
       AssetReference {
-        Id: 17625138148000688168
+        Id: 10981565176579185537
       }
     }
     Overrides {

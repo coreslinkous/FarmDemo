@@ -1,7 +1,7 @@
 Name: "Crafting"
-RootId: 8605766572070428680
+RootId: 263687194526741132
 Objects {
-  Id: 7648457273331659985
+  Id: 696760662296191320
   Name: "Recipes"
   Transform {
     Location {
@@ -14,12 +14,12 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8605766572070428680
+  ParentId: 263687194526741132
   UnregisteredParameters {
     Overrides {
       Name: "cs:DataTable"
       AssetReference {
-        Id: 2504356096040291535
+        Id: 5592527268506436001
       }
     }
     Overrides {
@@ -53,7 +53,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7855004203453601297
+  Id: 4346237847027193125
   Name: "CraftingStationBuffs"
   Transform {
     Location {
@@ -66,12 +66,12 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8605766572070428680
+  ParentId: 263687194526741132
   UnregisteredParameters {
     Overrides {
       Name: "cs:DataTable"
       AssetReference {
-        Id: 13159970121790558374
+        Id: 14854439876371062644
       }
     }
     Overrides {
@@ -105,7 +105,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17052764482392992537
+  Id: 14437154928475995254
   Name: "CraftingStations"
   Transform {
     Location {
@@ -118,12 +118,12 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8605766572070428680
+  ParentId: 263687194526741132
   UnregisteredParameters {
     Overrides {
       Name: "cs:DataTable"
       AssetReference {
-        Id: 2433615489823924307
+        Id: 3156141557182964189
       }
     }
     Overrides {
